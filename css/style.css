@@ -1503,6 +1503,10 @@ body.touch .item-article__button::before {
     max-width: 31.4375rem;
     gap: 85px;
   }
+
+  .column-top__title {
+    pointer-events: none;
+  }
 }
 
 @media screen and (min-width: 47.99875rem) {
@@ -2483,13 +2487,6 @@ body.touch .item-article__button::before {
 
   .sub-menu__list-item:hover {
     background-color: #cc4e00;
-  }
-
-  .column-top__title:hover {
-    color: #e6e6e6;
-    -webkit-box-shadow: inset 0rem 0rem 0.875rem rgb(255, 255, 255);
-            box-shadow: inset 0rem 0rem 0.875rem rgb(255, 255, 255);
-    border-radius: 0.125rem;
   }
 
   .column-top__link:hover {
