@@ -509,7 +509,7 @@ h6 {
   color: rgb(255, 98, 0);
 }
 
-.sub-menu__list {
+.sub-menu {
   position: absolute;
   top: 80%;
   left: 0;
@@ -530,7 +530,7 @@ h6 {
   transition: all 0.5s ease 0s;
 }
 
-.sub-menu__list.open {
+.sub-menu.open {
   opacity: 1;
   visibility: visible;
   top: 130%;
@@ -2119,14 +2119,14 @@ body.touch .item-article__button::before {
     font-size: 1rem;
   }
 
-  .sub-menu__list.open {
+  .sub-menu.open {
     display: block;
     margin-top: 0.625rem;
     -webkit-animation: trans 0.7s ease-in-out;
             animation: trans 0.7s ease-in-out;
   }
 
-  .sub-menu__list {
+  .sub-menu {
     position: relative;
     display: none;
   }
